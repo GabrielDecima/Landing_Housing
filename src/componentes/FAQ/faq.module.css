@@ -1,0 +1,85 @@
+.sectionFaq{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-around;
+  
+}
+.sectionTitleAndText{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionTitleAndText h1{
+color: #090D26;
+font-family: Gordita;
+font-size: 5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 5.625rem; 
+letter-spacing: -0.09rem;
+width: 25rem;
+}
+
+.sectionTitleAndText p{
+color: #0E0E0E;
+font-family: Gordita;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.5625rem; 
+margin-top: 4rem;
+width: 24rem;
+}
+
+.sectionTitleAndText button{
+width: 10.3125rem;
+height: 3.4375rem;
+color: #ffff;
+background: #1B1B1B;
+font-family: Gordita;
+font-size: 1.0625rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 3rem;
+}
+
+
+
+@media (max-width: 1090px) {
+
+    .sectionTitleAndText h1{
+    
+        font-size: 3.5rem;
+        font-weight: 550;
+   
+    }
+
+    .sectionTitleAndText p{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .sectionTitleAndText button{
+        width: 9rem;
+        height: 2.4375rem;
+    }
+        
+
+}
+
+@media (max-width: 940px) {
+
+.sectionFaq{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+   
+}
+
+.sectionTitleAndText{
+    margin-bottom: 6rem;
+}
+        
+
+}

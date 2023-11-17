@@ -1,0 +1,228 @@
+
+.sectionTitles{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+.parrafo{
+    width: 36rem;
+    color: #000;
+    font-family: Gordita;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.75rem; 
+}
+
+.tittle{
+    width: 39.125rem;
+    color: #000;
+    font-family: Gordita;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5rem; /* 125% */
+    letter-spacing: -0.125rem;
+}
+
+.tittle svg{
+    margin-left: 1rem;
+}
+/* --------------------------- */
+.sectionCard{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 9.62rem;
+    
+}
+
+
+.cardCondominio{
+    background-image: url(./media/condosCard.jpg);
+    background-size: 100% 100%  ;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width: 28rem;
+    height: 38rem;
+    margin: 0 3.5rem 0 3.5rem;
+}
+
+.cardProperty{
+    background-image: url(./media/propertyCard.jpg);
+    background-size: 100% 100%  ;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width: 28rem;
+    height: 38rem;
+    margin: 0 3.5rem 0 3.5rem;
+}
+
+.cardHouse{
+    background-image: url(./media/houseCard.jpg);
+    background-size: 100% 100%  ;
+    background-position:center center;
+    background-repeat: no-repeat;
+    width: 28rem;
+    height: 38rem;
+    margin: 0 3.5rem 0 3.5rem;
+    
+}
+
+.titleCard{
+justify-content: center;
+align-items: center;
+display: flex;
+color: #000;
+font-family: Gordita;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 5rem; /* 250% */
+letter-spacing: -0.02rem;
+}
+
+.imageMidleService{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 6rem;
+}
+
+.midleTittle{
+    color: #000;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 5.6875rem; 
+    width: 80rem;
+    margin: 3rem auto 0 auto;
+}
+
+
+
+.sectionImgFinal{
+display: flex;
+justify-content: space-between;
+margin-top: 4rem;
+}
+
+/* -------------Media queries ------------------*/
+
+@media (max-width: 2000px) {
+    .cardCondominio{
+        margin: 0 2.5rem 0 2.5rem;
+    }
+    
+    .cardProperty{
+        margin: 0 2.5rem 0 2.5rem;
+    }
+    
+    .cardHouse{
+        margin: 0 2.5rem 0 2.5rem;
+        
+    }
+
+    
+    .midleTittle{
+    
+        font-size: 4.5rem;
+        font-weight: 550;
+        width: 75rem;
+    }
+
+
+}
+
+@media (max-width: 1700px) {
+    .tittle{
+        width: 37rem;
+        
+    }
+
+    .cardCondominio{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+    
+    .cardProperty{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+    
+    .cardHouse{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+
+    .midleTittle{
+    
+        font-size: 3.5rem;
+        width: 60rem;
+    }
+}
+
+@media (max-width: 1450px) {
+    .sectionCard{
+        flex-direction: column;
+    }
+    .tittle{
+        font-size: 3.5rem;
+        
+    }
+    .parrafo{
+        font-size: 1.5rem;
+    }
+
+    .cardCondominio{
+        margin: 1.5rem 0 2rem 0;
+    }
+    
+    .cardProperty{
+        margin: 1.5rem 0 2rem 0;
+    }
+    
+    .cardHouse{
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    .midleTittle{
+    
+        font-size: 3rem;
+        width: 55rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .sectionTitles{
+        flex-direction: column;
+    }
+    .parrafo{
+        margin-top: 3rem;
+    }
+
+    .midleTittle{
+    
+        font-size: 2.3rem;
+        width: 30rem;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .midleTittle{
+    
+        font-size: 1.8rem;
+        width: 20rem;
+    }
+    .sectionImgFinal{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .imageMidleService2{
+        display: none;
+    }
+
+}

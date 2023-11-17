@@ -1,0 +1,152 @@
+.sectionSendMesage
+{
+    margin-top: 8rem;
+    background-image: url('./media/BgImage.png');
+    background-size: contain;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.sectionTitle h1{
+color: #FFF;
+font-family: Gordita;
+font-size: 4.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 5.1875rem; /* 115.278% */
+letter-spacing: -0.09rem;
+width: 28rem;
+}
+
+.sectionTitle p{
+    color: #FFF;
+font-family: Gordita;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 116.667% */
+}
+
+.sectionTitle a{
+    color: #FFED4E;
+    font-family: Gordita;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+/* ------------------------------------- */
+.sectionInputCard{
+    width: 38.4375rem;
+    height: 13.375rem;
+    background: #FFED4E;
+    border-radius: 0.2rem;
+}
+
+.sectionInputCard input{
+color: #000;
+font-family: Gordita;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: transparent;
+margin: 4.5rem 2rem 0 3rem ;
+border: none;
+border-bottom: 0.2rem solid #000;
+outline: none;
+padding-bottom: 1rem;
+width: 23rem;
+}
+
+.sectionInputCard input::placeholder{
+    color: #000;
+
+
+}
+
+.sectionInputCard button{
+width: 6.8125rem;
+height: 3.4375rem;
+background: #0C0C0C;
+color: #FFF;
+font-family: Gordita;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2.1875rem; /* 218.75% */
+letter-spacing: 0.25rem;
+
+}
+
+.sectionInputCard p{
+    width: 28.125rem;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Gordita;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem; 
+    margin: 1.2rem 0 0 3rem;
+}
+
+
+@media (max-width: 1400px) {
+    .sectionTitle h1{
+        font-size: 3.5rem;
+        width: 23rem;
+    }
+    .sectionInputCard{
+        width: 36.4375rem;
+        height: 12.375rem;
+    
+    }
+}
+
+
+@media (max-width: 1090px) {
+
+    .sectionTitle{
+        margin-bottom: 4rem;
+    }
+    .sectionSendMesage{
+        flex-direction: column;
+        height: 33rem;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .sectionInputCard{
+        height: 10.375rem;
+        width: 31rem;
+    
+    }
+
+    .sectionInputCard button{
+        width: 6rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+        
+        .sectionInputCard p{
+            width: 24.125rem;
+            font-weight: 550;
+     
+        }
+
+        .sectionInputCard input{
+           
+            font-size: 1rem;
+            margin: 4rem 2rem 0 2rem ;
+            padding-bottom: 1rem;
+            width: 20rem;
+            }
+            
+        
+}

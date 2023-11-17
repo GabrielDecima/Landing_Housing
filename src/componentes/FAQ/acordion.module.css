@@ -1,0 +1,60 @@
+
+.accordion {
+    /* border: 1px solid #ccc; */
+    width: 32rem;
+  }
+  
+  /* Estilos para cada ítem del acordeón */
+  .accordionItem {
+    border-bottom: 2px solid #000000;
+    padding-top: 1.5rem ;
+  }
+  
+  /* Estilos del título del acordeón */
+  .accordionTitle {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ffff;
+    color: #000;
+    font-family: Gordita;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+
+  .accordionTitle span{
+    margin-left: 1.5rem;
+ 
+  }
+
+  /* Estilos para el contenido del acordeón */
+  .accordionContent {
+    padding: 10px;
+    background-color: #F5F7FC;
+  }
+
+  .accordionContent p {
+    padding: 1rem 0 1rem 0;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Gordita;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.375rem;
+  }
+
+
+  @media (max-width: 940px) {
+    
+    .accordion{
+      width: 28rem;
+    }
+
+    .accordionTitle{
+      font-size: 1.2rem;
+    }
+  }

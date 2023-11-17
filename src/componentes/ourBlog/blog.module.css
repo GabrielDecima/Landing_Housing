@@ -1,0 +1,223 @@
+.sectionBlog{
+    background-color:#F5F7FC;
+    margin-top: 6rem;
+}
+.sectionTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+}
+.titleH1{
+color: #090D26;
+font-family: Gordita;
+font-size: 4.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 5rem;
+letter-spacing: -0.045rem;
+}
+
+.sectionLink a{ 
+color: #000;
+font-family: Gordita;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.03rem;
+margin-right: .5rem;
+}
+
+/* ------------- */
+
+.sectionContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3.75rem;
+    padding-bottom: 9rem;
+
+}
+
+
+.imgCard{
+    width: 38.75rem;
+    height: 31.875rem;
+
+}
+
+.sectionCard{
+    width: 38.75rem;
+    height: 31.875rem;
+    background: #FFF;
+    
+}
+.sectionText{
+    margin-left: 3.93rem;
+    margin-top: 5rem;
+}
+
+.sectionCard h6{
+    width: 6.25rem;
+    height: 1.5625rem;
+    background: #000;
+    color: #FFF;
+    font-family: Gordita;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.parrafo{
+width: 27rem;
+height: 9.625rem;
+flex-shrink: 0;
+color: #000;
+font-family: Gordita;
+font-size: 3rem;
+font-style: normal;
+font-weight: 550;
+line-height: 3.1875rem;
+margin-top: 1.90rem;
+}
+
+.parrafo2{
+    color: #202020;
+font-family: Gordita;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5625rem;
+margin-top: 9rem;
+}
+
+.parrafo2 span{
+color: #AAA;
+font-family: Gordita;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5625rem;
+}
+
+
+.sectioniconText{
+    display: flex;
+}
+.sectioniconText svg{
+    margin-top: 8.5rem;
+    margin-left: 18rem;
+  
+}
+
+
+@media (max-width: 1570px) {
+    .sectionBlog{
+        margin-top: -20rem;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .titleH1{
+    font-size: 3.4rem;
+    }
+    .sectionLink a{
+        font-size: 1rem;
+    }
+    .imgCard{
+            width: 34rem;
+            height: 26rem;
+        
+        }
+    .sectionCard{
+        width: 34rem;
+            height: 26rem;
+    
+        
+    }
+    .sectionText{
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    .sectionCard h6{
+        width: 4rem;
+        height: 1rem;
+        font-size: 0.6rem;
+    
+        
+    }
+    .parrafo{
+        width: 25rem;
+        height: 8rem;
+        font-size: 2rem;
+   
+        }
+        
+        .parrafo2{
+    
+        font-size: 1.2rem;
+        margin-top: 7rem;
+        }
+        
+        .sectioniconText svg{
+            margin-top: 6rem;
+            margin-left: 15rem;
+          
+        }
+        
+}
+
+@media (max-width: 1200px) {
+
+   
+    .imgCard{
+            width: 30rem;
+            height: 22rem;
+        
+        }
+    .sectionCard{
+        width: 30rem;
+            height: 22rem;
+    
+        
+    }
+
+    .parrafo2{
+
+    font-size: 1rem;
+    margin-top: 6rem;
+    }
+    
+    .sectioniconText svg{
+        margin-top: 5rem;
+        margin-left: 11rem;
+        
+    }
+   
+
+}
+
+@media (max-width: 1050px) {
+
+   .sectionContent{
+    flex-direction: column;
+
+   }
+   .imgCard{
+    margin-bottom: 5rem;
+   }
+   .sectionCard{
+    margin-bottom: 3rem;
+   }
+    
+}

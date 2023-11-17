@@ -1,0 +1,175 @@
+.sectionBestProperty{
+   
+    background: #F5F7FC;
+    padding-bottom: 10rem;
+}
+
+.tittle{
+    color: #000;
+    font-family: Gordita;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 550;
+    line-height: 5.5625rem; 
+    letter-spacing: -0.125rem;
+
+}
+
+.sectionHeader{
+    padding: 5rem 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navSection{
+    margin-top: 2rem;
+}
+.ulItems{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    
+}
+.ulItems ol{
+    margin: 0 2rem 0 2rem;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    color: #000;
+    font-family: Gordita;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1875rem;
+}
+
+.ulItems ol:hover{
+    color : #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+/*------------------ Cards ---------------------------*/
+.sectionCards{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 4rem;
+
+}
+
+.cards{
+    box-shadow: 0px 50px 100px 0px rgba(0, 45, 70, 0.03);
+    width: 24.1rem; 
+}
+.imageCard{
+    width: 24rem;
+    height: 20rem;
+}
+
+.infoCard{
+    background: #FFF;
+    padding-left: 2rem;
+    height: 10rem;
+}
+
+.titleCard{
+    color: #000;
+    font-family: Gordita;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 560;
+    line-height: 3rem; /* 366.667% */
+    letter-spacing: -0.03rem;
+}
+.direction{
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Gordita;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+  
+    letter-spacing: -0.01125rem;
+}
+
+.price{
+    color: #000;
+    font-family: Gordita;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 570;
+    line-height: 5rem;
+    letter-spacing: -0.045rem;
+}
+
+.iconCard{
+    position: relative;
+    left: 17rem;
+    bottom: 3.5rem;
+   
+}
+
+@media (max-width: 1900px)
+{
+    .sectionCards{
+        flex-direction: column;
+    }
+    .cards{
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1500px)
+{
+    .tittle{
+       
+        font-size: 3.5rem;
+    }
+    
+    .ulItems ol{
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 1150px)
+{
+    .tittle{
+       
+        font-size: 2.2rem;
+    }
+    
+    .ulItems ol{
+        font-size: 1rem;
+        margin: 0 1rem 0 1rem;
+        padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    }
+    
+}
+
+
+@media (max-width: 1000px)
+{
+    .sectionHeader{
+        flex-direction: column;
+        width: 23rem;
+    }
+
+    .ulItems{
+        display: flex;
+        align-items: center;
+        justify-content: start;  
+    }
+    
+    .sectionCards{
+        width: 30rem;
+    }
+}
+
+@media (max-width: 860px)
+{
+    .sectionCards{
+        width: 23rem;
+        justify-content: center;
+        align-items: center;
+    }
+}

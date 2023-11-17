@@ -1,0 +1,73 @@
+.header{
+    background-image: url(../../assets/imgHeader.png);
+    background-position: center center;
+ 
+    height: 59rem;
+    padding-top: 0.9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sectionTitle{
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: Gordita;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5.875rem;
+    letter-spacing: -0.125rem;
+
+}
+.titleH6{
+    font-weight: 100;
+    line-height: 5.875rem;
+}
+
+
+.imgTittle{
+    position: relative;
+    width: 14.25rem;
+    height: 9.18825rem;
+    right: 10.69rem;
+    bottom: 7.9rem;
+
+}
+
+
+
+@media (max-width: 1450px) {
+
+
+    .sectionTitle{
+        
+        font-size: 2.625rem;
+        line-height: 3.875rem;
+        letter-spacing: -0.125rem;
+        margin-top: 1.5rem;
+    
+    }
+
+}
+
+
+@media (max-width: 800px) {
+
+
+    .sectionTitle{
+        
+        font-size: 1.7rem;
+     
+    
+    }
+
+    .titleH6{
+
+        font-size: 1.7rem;
+     
+    }
+    
+
+}
