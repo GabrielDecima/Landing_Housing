@@ -1,5 +1,5 @@
 
-import Faq from '../componentes/FAQ/faq'
+import Faq from '../componentes/faq/faq'
 import BestProperty from '../componentes/bestProperty/bestProperty'
 import Client from '../componentes/client/client'
 import Footer from '../componentes/footer/footer'
